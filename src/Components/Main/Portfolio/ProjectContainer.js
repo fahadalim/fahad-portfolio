@@ -7,6 +7,8 @@ import pounamunuiLg from "../../../Assets/img/Portfolio items/youtube.png";
 import newsAggregator from "../../../Assets/img/Portfolio items/foodApp.png";
 import lumenSm from "../../../Assets/img/Portfolio items/Lumen.PNG";
 import lumenLg from "../../../Assets/img/Portfolio items/Lumen.PNG";
+import ssense from "../../../Assets/img/Portfolio items/ssense.png";
+
 
 import ProjectItem from "./ProjectItem";
 
@@ -30,7 +32,7 @@ const ProjectContainer = () => {
         p1: "This is a clone of lumen5.com, where we have used HTML, CSS, and Javascript to achieve this.",
         l1: "https://github.com/fahadalim/Lumen-5-Clone.git",
         a1: "Github page for a project.",
-        l2: "https://purplle.vercel.app/",
+        l2: "https://lumen5-clone.netlify.app//",
         a2: "lumen5.com_web_clone",
         tech: [html, css, js],
       },
@@ -45,28 +47,17 @@ const ProjectContainer = () => {
         a2: "Nykaaman live website.",
         tech: [html, css, js, expressjs, nodejs],
       },
-      //   {
-      //     image: [pounamunuiSm, pounamunuiLg],
-      //     alt: "Youtube web clone",
-      //     heading: "Youtube web clone",
-      //     p1: "Getting familiar with google APIs by creating this simple Youtube-like app, where users can search and stream Youtube videos. Using JS, HTML and CSS.",
-      //     l1: "https://github.com/AmbaliyaDhruv/YouTube_clone.github.io",
-      //     a1: "Github page for a project.",
-      //     l2: "https://ambaliyadhruv.github.io/YouTube_clone.github.io/",
-      //     a2: "Youtube clone web project live website.",
-      //     tech: [html, css, js],
-      //   },
-      //   {
-      //     image: [newsAggregator, newsAggregator],
-      //     alt: "Food App",
-      //     heading: "Food App",
-      //     p1: "A food search app, where users can search various dishes and get the full recipe of it and Implemented search functionality using JS debouncing to minimize the unnecessary api calls",
-      //     l1: "https://github.com/AmbaliyaDhruv/FoodApp",
-      //     a1: "Github page for a project.",
-      //     l2: "https://food-app-ambaliyadhruv.vercel.app/index.html",
-      //     a2: "Food App live website",
-      //     tech: [html, css, js],
-      //   },
+      {
+        image:[ssense, ssense] ,
+        alt: "Ssense Clone",
+        heading: "ssense web clone",
+        p1: "We tried to built the clone of ssense shopping website, Which deals in luxury products.",
+        l1: "https://github.com/Ajay-Maury/SSENSE-Clone.git",
+        a1: "Github page for a Ssense project.",
+        l2: "https://ssense-clone.netlify.app/",
+        a2: "Ssense live website.",
+        tech: [html, css, js, react, expressjs, nodejs],
+      },
     ];
     return (
         <div
