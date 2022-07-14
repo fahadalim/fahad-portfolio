@@ -103,7 +103,7 @@ const MobileNav = ({
                             );
                         })}
                         <ul
-                            className={styles.mobileNavOverlayHidden}
+                            // className={styles.mobileNavOverlayHidden}
                             variants={mobileMenu}
                             inital={"open"}
                             animate={menuOpen ? "open" : "closed"}
