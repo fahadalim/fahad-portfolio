@@ -12,7 +12,7 @@ const NavLinks = ({ input, navClass, handleSetMobileMenu, width, isLight }) => {
       >
         {input === "Resume" ? (
           <a
-            href="https://drive.google.com/file/d/12MKDeqDRp8by8yceFkruZIylkhQJ2Lyl/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TCTsIAFquoEg_Uo3fIsuD86iiP8cDLd0/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             aria-label="My Linkedin resume"
